@@ -61,11 +61,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+    public boolean onOptionsItemSelected(MenuItem item) {// TODO: Testint Todo 21-Aug-22
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+        int id = item.getItemId();// FIXME: testin fixme 21-Aug-22
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
