@@ -6,6 +6,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.util.Log;
 import android.view.View;
 
 import androidx.navigation.NavController;
@@ -66,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();// FIXME: testin fixme 21-Aug-22
+        Log.d("value_of_a", "valor de a...");
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
